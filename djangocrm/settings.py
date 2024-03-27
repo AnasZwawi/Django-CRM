@@ -66,9 +66,9 @@ WSGI_APPLICATION = 'djangocrm.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+    'postgresql': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dcrm',
+        'NAME': 'railway',
         'USER': 'postgres',
         'PASSWORD': os.environ.get('DB_PASSWORD'),
         'HOST': 'monorail.proxy.rlwy.net',
