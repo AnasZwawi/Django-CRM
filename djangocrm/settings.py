@@ -1,6 +1,5 @@
 from pathlib import Path
 from dotenv import load_dotenv
-import mysql.connector
 import os
 
 load_dotenv()
@@ -68,10 +67,10 @@ WSGI_APPLICATION = 'djangocrm.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'dcrm',
         'USER': 'root',
-        'PASSWORD': os.environ.get('MYSQL_PASSWORD'),
+        'PASSWORD': os.environ.get('DB_PASSWORD'),
         'HOST': 'roundhouse.proxy.rlwy.net',
         'PORT': '23938' 
     }
