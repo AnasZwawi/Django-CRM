@@ -1,1 +1,1 @@
-web: gunicorn djangocrm-wsgi --log-file -
+web: gunicorn 'djangocrm.wsgi'
