@@ -69,10 +69,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'dcrm',
-        'USER': 'root',
+        'USER': 'postgres',
         'PASSWORD': os.environ.get('DB_PASSWORD'),
-        'HOST': 'roundhouse.proxy.rlwy.net',
-        'PORT': '23938' 
+        'HOST': 'monorail.proxy.rlwy.net',
+        'PORT': '12724' 
     }
 }
 
