@@ -121,4 +121,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-CSRF_TRUSTED_ORIGINS = ['https://django-crm-production-72a3.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://django-crm-production-72a3.up.railway.app']
