@@ -4,7 +4,6 @@ import os
 
 load_dotenv()
 
-
 #connect to mysql
 dataBase = mysql.connector.connect(
   host= "localhost",
