@@ -4,8 +4,9 @@ Django==4.2.11
 gunicorn==21.2.0
 mysql==0.0.3
 mysql-connector-python==8.3.0
-mysqlclient==2.2.1
 
+packaging==24.0
+psycopg2==2.9.9
 python-dotenv==1.0.1
 sqlparse==0.4.4
 typing_extensions==4.10.0
