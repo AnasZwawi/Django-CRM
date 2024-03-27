@@ -11,7 +11,6 @@ dataBase = mysql.connector.connect(
   user= "root",
   passwd= os.environ.get('MYSQL_PASSWORD'),
   auth_plugin='mysql_native_password'
-
 )
 
 #prepare a cursor object
