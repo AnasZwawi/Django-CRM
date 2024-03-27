@@ -72,8 +72,8 @@ DATABASES = {
         'NAME': 'dcrm',
         'USER': 'root',
         'PASSWORD': os.environ.get('MYSQL_PASSWORD'),
-        'HOST': 'localhost',
-        'PORT': '3306' 
+        'HOST': 'roundhouse.proxy.rlwy.net',
+        'PORT': '23938' 
     }
 }
 
