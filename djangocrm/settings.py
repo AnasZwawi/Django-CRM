@@ -70,7 +70,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': os.environ.get('DB_PASSWORD'),
+        'PASSWORD': 'PAriZGxUKfdrCLwQezPtJvyepQBAjcFM',
         'HOST': 'monorail.proxy.rlwy.net',
         'PORT': '12724' 
     },
@@ -78,7 +78,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': os.environ.get('DB_PASSWORD'),
+        'PASSWORD': 'PAriZGxUKfdrCLwQezPtJvyepQBAjcFM',
         'HOST': 'monorail.proxy.rlwy.net',
         'PORT': '12724' 
     }
